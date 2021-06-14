@@ -22,7 +22,7 @@ jobs:
           root: .
           paths:
             - ./mavenwebapp.tar
-  publish-latest:
+  publish-tag:
     executor: docker-publisher
     steps:
       - attach_workspace:
